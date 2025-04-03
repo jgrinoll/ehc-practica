@@ -19,11 +19,55 @@ body {
   flex-direction: column;
   height: 100vh;
   margin: 0;
+  width: 100%;
+}
+
+main {
   width: 80vw;
+}
+
+nav {
+  width: 100%;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
 }
 
 header {
   margin-bottom: auto;
+  width: 100%;
+  background-color: rgb(68, 68, 68);
+}
+
+#header-logo {
+  width: 75px;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  border-radius: 10rem;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: .75rem;
+  width: 100%;
+}
+
+header ul li a {
+  padding: 10px 2rem;
+}
+
+header ul li a:hover {
+  background-color: rgb(100, 100, 100);
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+header ul li.justify-end {
+  margin-left: auto;
 }
 
 footer {
