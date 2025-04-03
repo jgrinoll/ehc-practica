@@ -165,6 +165,7 @@ h1 {
 }
 
 /** MENU PAGE **/
+
 main ul {
   list-style-type: none;
   margin: 0;
@@ -221,9 +222,43 @@ main ul li {
   margin-bottom: .5rem;
 }
 
+/** MENU ITEM DETAIL **/
+#main-menu-item-detail section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .75rem;
+}
+
+@media (max-width: 600) {
+  #main-menu-item-detail img {
+    min-width: 100%;
+  }
+}
+
+#main-menu-item-detail img {
+  max-width: 33%;
+  border-radius: 1rem;
+}
+
+#main-menu-item-detail section p {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+#main-menu-item-detail section ul {
+  list-style-type: disc;
+  display: block;
+  padding-left: 3rem;
+  width: 100%;
+}
+
 /** FOOTER **/
 
 footer {
+  position: sticky;
+  bottom: 0;
   display: flex;
   justify-content: center;
   width: 100%;
