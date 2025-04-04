@@ -2,7 +2,7 @@ import { Datepicker } from 'vanillajs-datepicker';
 
 const messageDisplay = document.getElementById("reservation-message")
 
-const datepickerElement = document.querySelector('input[name="bookingTimestamp"]');
+const datepickerElement = document.querySelector('input[name="bookingDate"]');
 const datepicker = new Datepicker(datepickerElement, {});
 console.log(datepicker);
 
