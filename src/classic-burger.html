@@ -14,8 +14,20 @@
     <main id="main-menu-item-detail">
         <h1>Classic Burger</h1>
         <section id="classic-burger">
-            <img src="./assets/classic-burger.png"
-                alt="A Classic Burger with a meat patty, tomatoes, lettuce, cheese and onions, served with some fries">
+          <picture>
+            <source
+              srcset="./assets/classic-burger.webp"
+              media="(max-width: 800px)"
+            />
+            <source
+              srcset="./assets/classic-burger_extended.webp"
+              media="(min-width: 800px)"
+            />
+            <img
+              src="./assets/classic-burger.webp"
+              alt="A Classic Burger with a meat patty, tomatoes, lettuce, cheese and onions, served with some fries"
+            />
+          </picture>
             <p>The Classic Burger is a quintessential American dish, combining the best of simplicity and flavor. At its
                 core is a juicy 100% beef patty, perfectly cooked and topped with sharp cheddar cheese. Fresh lettuce,
                 sliced tomato, and tangy pickles add crunch and brightness, while the sesame seed bun holds it all
