@@ -62,10 +62,11 @@
       </li>
       <li>
         <a class="img-container">
-          <img
-            src="./assets/hot-dog_160px.webp"
-            alt="A plate with three small hot dogs, topped with ketchup, mustard and pickles. Served with a toothpick with a small american flag"
-          />
+          <picture>
+            <source srcset="./assets/hot-dog.jpg?as=webp&width=160" type="image/webp" media="(max-width: 480px)" />
+            <source srcset="./assets/hot-dog.jpg?as=webp" type="image/webp" />
+            <img src="./assets/hot-dog.jpg?as=webp" alt="A plate with three small hot dogs, topped with ketchup, mustard and pickles. Served with a toothpick with a small american flag" />
+          </picture>
           <p class="img-footer">Designed by www.freepik.com</p>
         </a>
         Hot Dog - $8.00
