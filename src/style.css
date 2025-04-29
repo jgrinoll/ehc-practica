@@ -292,7 +292,7 @@ main ul li {
   gap: 0.75rem;
 }
 
-@media (max-width: 600) {
+@media (max-width: 600px) {
   #main-menu-item-detail img {
     min-width: 100%;
   }
