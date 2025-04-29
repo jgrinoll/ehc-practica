@@ -188,6 +188,21 @@ h1 {
   animation: slideInOvershootLeft 1s ease 1s 1 normal backwards;
 }
 
+#landing-menu img {
+  clip-path: polygon(
+    50% 0%,
+    71% 25%,
+    98% 35%,
+    79% 63%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    20% 62%,
+    2% 35%,
+    29% 23%
+  );
+}
+
 #landing-reservation {
   position: relative;
   animation: slideInOvershootRight 1s ease 1s 1 normal backwards;
